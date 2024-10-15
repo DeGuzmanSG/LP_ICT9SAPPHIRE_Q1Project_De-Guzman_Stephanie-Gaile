@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Login to Steph's Statuettes</title>
+
+	<style>
+
+body {
+    display: flex; 
+    flex-direction: column;
+     align-items: center; 
+     height: 100px; 
+     background-image: url(pinky.png);
+    font-family: 'Arial', sans-serif;
+}
+
+ .header {
+    width: 100%;
+    background-color: skyblue;
+    padding: 20px 0;
+    text-align: center;
+    color: whitesmoke;
+ }
+
+ .profile-image img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px solid #violet;
+ }
+
+ .container {
+    background-color: #ffffff;
+    padding: 20px;
+    border: 1px solid #ce93d8;
+    border-radius: 8px;
+    width: 320px;
+    text-align: center;
+    margin-top: 20px;
+    font-family: cursive;
+    color: skyblue;
+ }
+
+
+ 	input {
+ 		color: lightblue; 
+ 		size: 10px; 
+ 		background-color: white;
+ 		font-size: 10px;}
+
+label {
+	color: skyblue; 
+	font-size: 30px; 
+	font-family: "Courier New", sans-serif; 
+	font-weight: bolder;}
+
+form {
+  text-align: center;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+  display: block;
+max-width: 50%;
+}
+
+
+</style>
+
+</head>
+<body>
+
+<div class="header">
+		<h1> ~ Steph's Statuettes ~ </h1>
+		</div>
+
+<div class="container">
+
+		<div class="profile-image">
+		<img src="madi.png" alt="profile picture">
+		</div>
+
+
+		<h2>Log In</h2>
+<form>
+	
+		<label for="username">Username:</label>
+		<input type="text" id="username" name="username" required>
+
+
+		<label for="password">Password:</label>
+		<input type="password" id="password" name="password" required>
+
+		<button type="submit">Login</button>
+
+</form>
+
+
+
+</body>
+</html>
+
