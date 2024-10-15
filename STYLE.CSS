@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+	background-image: url('pinky.png');
+}
+
+.header {
+	width: 100%;
+    background-color: skyblue;
+    padding: 15px 0;
+    text-align: center;
+    color: white;
+    font-family: cursive;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    font-weight: bold;
+}
+
+}
+.Container1 {
+	   width: 1000px;
+  background-color: lightblue ;
+  padding-bottom: 30px;
+  text-align: center;
+  align-self: center;
+
+}
+
+
+.mado {
+
+	width: 1000px;
+	  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.FREE {
+	text-align: center;
+	font-weight: bold;
+	font-family: cursive;
+	color: white;
+	margin: 5px;
+	padding: 5px;
+	background-color: skyblue;
+}
+
+.ITEMS {
+	font-family: cursive;
+	color: darkblue;
+	background-image: url('pinky.png')
+}
+
+.column{
+		display: flex;
+	}
+
+	.row{
+		flex: 25%;
+		padding: 5px;
+		text-align: center;
+		
+	}
+
+.feedback {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-family: cursive;
+	font-size: 20px;
+	color: darkblue;
+	
+}
+
+
+
+.options {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-family: cursive;
+	font-size: 20px;
+	color: darkblue;
+	
+}
+
+
+
+
+
+
